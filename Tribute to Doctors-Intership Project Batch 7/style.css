@@ -1,0 +1,225 @@
+body{
+    margin: 100;
+    padding: 0;
+    background-image:url('bk-img.jpg');
+
+}
+/* .h1{
+    text-align: left;
+    margin-left: 10;
+    margin-top: 20;
+    font-size:150%;
+    position: relative;
+    top: 100px;
+} */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 10;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  
+  main {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+  }
+  header h1 {
+      font-size: 5em;
+      font-weight: bolder;
+      color: rgb(175, 6, 6);
+  }
+  #img-div {
+    background-color: rgb(250, 250, 250);
+    border: 5px solid #555;
+    width: auto;
+    height: 10%;
+
+  }
+  
+  #image {
+    max-width: 50%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  #pgh1{
+    padding: 50px;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 20px;
+    font-style:italic;
+    color: rgb(5, 87, 102);
+    font-weight: bolder;
+  }
+  #pgh2{
+    width: 93%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(5, 87, 102);
+  }
+
+  #head2{
+    font-size: 3.2em;
+    font-weight: bold;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    color: rgb(233, 20, 109);
+  }
+  #second-wave{
+    font-size: 3.2em;
+    font-weight: bold;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    color: rgb(209, 8, 8); 
+  }
+  #pgh3{
+    width: 93%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(5, 87, 102);
+    font-weight: bold;
+  }
+  blockquote{
+    width: 70%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 20px;
+    font-style:italic;
+    color: rgb(5, 87, 102);
+    padding-bottom: 120px;
+    font-weight: bolder;
+
+  }
+#docgif{
+  float:right;
+  position: absolute;
+}
+#logo{
+    left: 50px;
+    position: absolute;
+    padding-top: 18px;
+}
+#logo1{
+    right: 50px;
+    position: absolute;
+    padding-top: 18px;
+}
+#pgh4{
+    width: 93%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(5, 87, 102);
+    font-weight: bold;
+}
+#life{
+    font-size: 3.2em;
+    font-weight: bold;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 93%;
+    color: rgb(209, 8, 8); 
+}
+#worker-img{
+    max-width:50%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+#article-link{
+    width: 90%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 25px;
+    font-style: inherit;
+    color: rgb(45, 37, 95);
+    font-weight: bold;
+
+}
+.link{
+    color:  rgb(45, 37, 95);
+}
+.link:hover{
+    color: rgb(216, 40, 122);
+    text-decoration: underline;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+footer p{
+  font-weight: bolder;
+  color: rgba(6, 26, 83, 0.993);
+  opacity: 50%;
+  font-size: 25px;
+}
